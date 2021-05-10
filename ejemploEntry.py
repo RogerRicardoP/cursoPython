@@ -23,3 +23,6 @@ miScrollVertical.grid(row=3, column=2, sticky="nsew")
 miText.config(yscrollcommand=miScrollVertical.set)
 
 miRoot.mainloop()
+
+//
+//
