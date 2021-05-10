@@ -6,7 +6,7 @@ def imprimir():
         etiqueta.config(text="Has elegido Masculino")
     else:
        etiqueta.config(text="Has elegido Femenino")  
-        
+//  esto es comentario        
 Label(root, text="Género").pack()
 Radiobutton(root, text="masculino", variable=varOpcion, value=1, command=imprimir).pack()
 Radiobutton(root, text="femenino", variable=varOpcion, value=2, command=imprimir).pack()
