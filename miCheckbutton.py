@@ -13,8 +13,7 @@ def opcionesViaje():
             opcionEscogida+=" Montaña"  
         if (cataratas.get()==1):
             opcionEscogida+=" Cataratas"  
-        textoFinal.config(text=opcionEscogida) 
-    
+            textoFinal.config(text=opcionEscogida)     
     
 
 foto=PhotoImage(file="archivos/claro.png")
